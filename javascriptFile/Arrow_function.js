@@ -16,3 +16,4 @@ const a = 1;
 const b = 2;
 let c = sum(a,b);
 console.log(`${a} + ${b} = ${c}`);
+console.log('test');
