@@ -9,4 +9,3 @@ let avg = (...args) => {
 }
 
 console.log(avg(2,3,4));
-console.log('test');

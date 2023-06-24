@@ -20,4 +20,3 @@ let dog = new Animal("Dog", "Brown")
 
 sayHi(user);
 console.log(dog);
-console.log('test');

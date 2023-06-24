@@ -9,4 +9,3 @@ And third Line`;
 
 console.log(templateString);
 console.log(multilineString);
-console.log('test');

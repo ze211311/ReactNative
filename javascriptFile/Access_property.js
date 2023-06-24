@@ -5,5 +5,5 @@ let user = {
 
 console.log("Name : " + user.name);
 console.log("ID : " + user.ID);
-console.log('test');
+
 

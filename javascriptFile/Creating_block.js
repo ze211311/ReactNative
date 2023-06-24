@@ -12,7 +12,7 @@ console.log("a = " + a);
   console.log(`b = ${b}`);
   console.log(`${a} ${b}`);
 }
-console.log('test');
+
 /*
     Multiline
     Comment

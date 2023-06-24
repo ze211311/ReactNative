@@ -5,4 +5,3 @@ song.artist = 'LANNY';
 song.year = 2020;
 
 console.log(song);
-console.log('test');

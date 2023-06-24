@@ -24,4 +24,3 @@ if (ALLOW_SIGNUP) {
 }
 
 console.log(`© ${new Date().getFullYear()} ${SITE_NAME}`);
-console.log('test');
