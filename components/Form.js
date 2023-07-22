@@ -12,7 +12,7 @@ const Form = () => {
     <View style={styles.container}>
       <TextInput placeholder={name} style={styles.textInputStyle} value={name} onChangeText={(value)=>setName(value)}/>
       <Text>{'\n\n'}</Text>
-      <Button title='INCREMENT AGE' onPress={increment}/>
+      <Button title='INCREMENT AGE' onPress={()=>setAge(age+1)}/>
       <Text>{'\n\n'}Hello, {name}. You are {age}</Text>
     </View>
   )
