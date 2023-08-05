@@ -6,10 +6,13 @@ import IncrementCounter from './components/IncrementCounter'
 import Form from './components/Form'
 import Login from './components/Login'
 import TP from './javascriptFile/TouchablePractice'
+import Example_useEffect from './javascriptFile/Example_useEffect';
+import useEffectFlatList from './javascriptFile/useEffectFlatList';
+import UseEffectFlatList from './javascriptFile/useEffectFlatList';
 const App = () => {
   return (
     <View style={styles.container}>
-      <TP/>
+      <UseEffectFlatList/>
     </View>
   );
 }
@@ -17,5 +20,7 @@ export default App
 const styles = StyleSheet.create({
   container:{
       flex:1,
+      justifyContent: 'center',
+        alignItems: 'Center'
   }
 })
