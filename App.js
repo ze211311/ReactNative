@@ -7,12 +7,13 @@ import Form from './components/Form'
 import Login from './components/Login'
 import TP from './javascriptFile/TouchablePractice'
 import Example_useEffect from './javascriptFile/Example_useEffect';
-import useEffectFlatList from './javascriptFile/useEffectFlatList';
 import UseEffectFlatList from './javascriptFile/useEffectFlatList';
+import FlatlistAPI from './javascriptFile/FlatlistAPI';
+import News from './javascriptFile/News';
 const App = () => {
   return (
     <View style={styles.container}>
-      <UseEffectFlatList/>
+      <News/>
     </View>
   );
 }
