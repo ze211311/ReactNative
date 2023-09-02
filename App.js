@@ -1,22 +1,28 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-//import Counter from './components/counter.js';
-//import  MyInput  from './components/MyInput.js';
-import IncrementCounter from './components/IncrementCounter'
-import Form from './components/Form'
-import Login from './components/Login'
-import TP from './javascriptFile/TouchablePractice'
-import Example_useEffect from './javascriptFile/Example_useEffect';
-import UseEffectFlatList from './javascriptFile/useEffectFlatList';
-import FlatlistAPI from './javascriptFile/FlatlistAPI';
-import News from './javascriptFile/News';
+import { StyleSheet, Text, View, Button } from 'react-native';
 import ProductScreen from './javascriptFile/ProductScreen';
+import {NavigationContainer} from '@react-navigation/native'
+import {createNativeStackNavigator} from '@react-navigation/native-stack'
+import HomeScreen from './Screen/HomeScreen';
+import DetailsScreen from './Screen/DetailsScreen';
+
+const Stack = createNativeStackNavigator();
 
 const App = () => {
   return (
-    <View style={{flex:1}}>
-      <ProductScreen/>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName='Home'>
+        <Stack.Screen 
+          name='Home' 
+          component={HomeScreen}
+          options={{title : 'Overview'}}
+        />
+        <Stack.Screen
+          name='Details'
+          component={DetailsScreen}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 export default App
