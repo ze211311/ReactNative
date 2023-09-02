@@ -1,19 +1,18 @@
 import { StyleSheet, Text, View, Button } from 'react-native'
 import React from 'react'
 
-
-const HomeScreen = ({navigation}) => {
+const firstpage = ({navigation}) => {
   return (
     <View style={{flex:1,alignItems:'center',justifyContent:'center'}}>
-      <Text>Home Screen</Text>
+      <Text>This is First page of the app</Text>
       <Button
-        title='Go to Details'
-        onPress={()=>(navigation.navigate('Details'))}
+        title='Go to Second Page'
+        onPress={()=>(navigation.navigate('Second'))}
       />
     </View>
   )
 }
 
-export default HomeScreen
+export default firstpage
 
 const styles = StyleSheet.create({})
