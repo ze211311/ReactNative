@@ -4,7 +4,7 @@ import React from 'react'
 const thirdpage = ({navigation}) => {
   return (
     <View style={{flex:1,alignItems:'center',justifyContent:'center'}}>
-      <Text>This is Third page of the app</Text>
+      <Text>This is second page of the app</Text>
       
       <Button
         title='Go to Back'
