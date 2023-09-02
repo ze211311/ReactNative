@@ -1,4 +1,4 @@
 Student ID : 2113110072
 Student Name : Narongkorn Sangayotin
-Date to study : 26-August-2023
-Class topic : PR Mobile, Android Emulator, Fetch call
+Date to study : 2-September-2023
+Class topic : React Navigator
