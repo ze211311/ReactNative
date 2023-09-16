@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, Button } from 'react-native'
 import React from 'react'
 
-const secondpage = ({navigation}) => {
+const Secondpage = ({navigation}) => {
   return (
     <View style={{flex:1,alignItems:'center',justifyContent:'center'}}>
       <Text>This is second page of the app</Text>
@@ -26,6 +26,6 @@ const secondpage = ({navigation}) => {
   )
 }
 
-export default secondpage
+export default Secondpage
 
 const styles = StyleSheet.create({})

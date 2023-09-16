@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, Button } from 'react-native'
 import React from 'react'
 
-const firstpage = ({route, navigation}) => {
+const Firstpage = ({route, navigation}) => {
   return (
     <View style={{flex:1,alignItems:'center',justifyContent:'center'}}>
       <Text>This is First page of the app</Text>
@@ -13,6 +13,6 @@ const firstpage = ({route, navigation}) => {
   )
 }
 
-export default firstpage
+export default Firstpage
 
 const styles = StyleSheet.create({})
